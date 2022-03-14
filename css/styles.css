@@ -1,0 +1,73 @@
+html {
+  height: 100vh;
+  background: #00ffff; }
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e0ffff;
+  font-size: arial; }
+
+.container {
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  background: #191970;
+  border-radius: 10px;
+  min-width: 450px;
+  position: absolute;
+  min-height: 100px;
+  transform: translate(-50%, -50%); }
+
+#caixa {
+  position: relative;
+  padding: 30px 20px; }
+
+#caixa #senha {
+  width: 75%;
+  height: 40px;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: 2px solid #e0ffff; }
+
+#caixa input:focus {
+  outline: none;
+  border-color: #00ffff; }
+
+span {
+  top: 50%;
+  right: 95px;
+  color: black;
+  font-size: 200px;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%); }
+
+#caixa button {
+  margin-top: 3%;
+  position: relative;
+  float: right;
+  font-weight: 500;
+  font-size: 14px;
+  background: #00ffff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  width: 15%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif; }
+
+#senha {
+  color: #111111;
+  background-color: #e0ffff; }
+
+#caixa button:hover {
+  background-color: #00ff7f; }
