@@ -1,0 +1,15 @@
+{
+  "name": "projeto_gerador_de_senhas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Andrey R. de Brito",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^5.5.2",
+    "node-sass": "^7.0.1"
+  }
+}
